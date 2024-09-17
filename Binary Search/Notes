@@ -20,3 +20,9 @@ while(L<=R)
 return -1;
 
 Complexity : O(logn)
+
+Good questions : 
+https://leetcode.com/problems/valid-perfect-square/
+https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/
+https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/
+
