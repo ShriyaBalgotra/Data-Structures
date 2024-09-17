@@ -1,0 +1,22 @@
+
+
+mid  = (start + end )/ 2 
+This might overflow
+mid = start + (end - start) / 2 ;
+
+Basic finding a target :
+
+L = 0, R = n-1;
+while(L<=R)
+{
+  int mid = L + (R-L)/2;
+  if( a[mid] == target )
+    return mid;
+  else if a[mid]> target
+    R = mid-1;
+  else
+    L = mid +1;  
+}
+return -1;
+
+Complexity : O(logn)
